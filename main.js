@@ -6,70 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Entrada 1",
         alternativas: [
             {
-                texto: "Texto 1.1",
+                texto: "Táuba de queijos",
                 afirmacao: "Afirmação 1.1"
             },
             {
-                texto: "Texto 1.2",
+                texto: "Táuba de salame",
                 afirmacao: "Afirmação 1.2"
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Prato Principal",
         alternativas: [
             {
-                texto: "Texto 2.1",
+                texto: "Carbonara",
                 afirmacao: "Afirmação 2.1"
             },
             {
-                texto: "Texto 2.2",
+                texto: "Lasanha",
                 afirmacao: "Afirmação 2.2"
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Sobremesa",
         alternativas: [
             {
-                texto: "Texto 3.1",
+                texto: "Torta",
                 afirmacao: "Afirmação 3.1"
             },
             {
-                texto: "Texto 3.2",
+                texto: "Banoffe",
                 afirmacao: "Afirmação 3.2"
             }
         ]
     },
-    {
-        enunciado: "Pergunta 4",
-        alternativas: [
-            {
-                texto: "Texto 4.1",
-                afirmacao: "Afirmação 4.1"
-            },
-            {
-                texto: "Texto 4.2",
-                afirmacao: "Afirmação 4.2"
-            }
-        ]
-    },
-    {
-        enunciado: "Pergunta 5",
-        alternativas: [
-            {
-                texto: "Texto 5.1",
-                afirmacao: "Afirmação 5.1"
-            },
-            {
-                texto: "Texto 5.2",
-                afirmacao: "Afirmação 5.2"
-            }
-        ]
-    },
+    
 ];
 
 //Declaração de variáveis
