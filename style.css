@@ -9,6 +9,7 @@
     
     body{ /*estilização no corpo da página*/
         background-image: url(floresta.jpeg);
+        background-image: 1350px x 960px;
         background-color: var(--cor-fundo); /*cor de fundo*/
         color: var(--cor-texto); /*cor do texto*/
         display: flex; /**/
