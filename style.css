@@ -1,0 +1,44 @@
+:root{ /*cria variáveis*/
+    /*para declarar a variável basta digitar a função var() e dentro dos parênteses coloca o nome de variável criada*/
+        --cor-fundo: #01080E;
+        --cor-principal: #ffbf77ab;
+        --cor-secundaria: #212333;
+        --cor-destaque: #531801;
+        --cor-texto: #fffefd;
+    }
+    
+    body{ /*estilização no corpo da página*/
+        background-image: url(pudim.jpg);
+        background-color: var(--cor-fundo); /*cor de fundo*/
+        color: var(--cor-texto); /*cor do texto*/
+        display: flex; /**/
+        justify-content: center; /*ajusta os elementos no centro*/
+        align-items: center; /*alinha os elementos dentro de um display no cenrto*/
+        min-height: 100vh; /*define o tamanho minimo dos elementos: 100 vw = tamanho da janela de visualização*/
+    }
+    
+    .caixa-principal{ /*estilização da classe caixa-principal*/
+        background-color: var(--cor-principal);
+        width: 90%; /*largura dos elementos*/
+        text-align: center; /*alinha o texto no centro*/
+        padding: 20px; /*espaçamento interno de 20 pixels*/
+    }
+    
+    h1{ /*estilização do título da página*/
+        color: var(--cor-destaque);
+    }
+    
+    button { /*estilização dos botões*/
+        background-color: var(--cor-secundaria);
+        color: var(--cor-texto);
+        border: none; /*sem borda*/
+        border-radius: 15px; /*arredondamento da borda*/
+        padding: 15px; /*espaçamento interno de 15 pixels*/
+        transition: background-color 0.3s; /*transição de 0.3 segundos quando passa o mouse pelo botão e muda a cor do fundo*/
+    }
+    
+    button:hover{ /*a pseudo-classe HOVER adiciona interação aos botões, nesse caso, muda a cor do fundo*/
+    /*isso nos informa que o botão está pronto para ser clicado*/    
+        background-color: var(--cor-destaque);
+        color: var(--cor-principal);
+    }
