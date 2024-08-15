@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Torta",
-                afirmacao: "Hipopotamo"
+                afirmacao: "Filhote"
             },
             {
                 texto: "Banoffe",
-                afirmacao: "Macaco"
+                afirmacao: "Adulto"
             }
         ]
     },
