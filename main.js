@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Táuba de queijos",
-                afirmacao: "Afirmação 1.1"
+                afirmacao: "Filhote"
             },
             {
                 texto: "Táuba de salame",
-                afirmacao: "Afirmação 1.2"
+                afirmacao: "Adulto"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Carbonara",
-                afirmacao: "Afirmação 2.1"
+                afirmacao: "de"
             },
             {
                 texto: "Lasanha",
-                afirmacao: "Afirmação 2.2"
+                afirmacao: "de"
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Torta",
-                afirmacao: "Afirmação 3.1"
+                afirmacao: "Hipopotamo"
             },
             {
                 texto: "Banoffe",
-                afirmacao: "Afirmação 3.2"
+                afirmacao: "Macaco"
             }
         ]
     },
